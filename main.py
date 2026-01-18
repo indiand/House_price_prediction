@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 import pickle
 import numpy as np
 
@@ -21,6 +22,6 @@ if st.button("Predict Price"):
     features = np.array([[area , bhk , bathrooms , parking ]])
     prediction = model.predict(features)
 
-    st.success(f"💰 Estimated Price: ₹ {round(prediction[0],2)}")
+    st.success(f"💰 Estimated Price: ₹ {round(prediction[0],2)}") 
 
  
