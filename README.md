@@ -1,11 +1,73 @@
-<h1 align="center">Hi 👋, I'm nitesh bhat</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+🏠 House Price Prediction using Machine Learning
 
-- 🔭 I’m currently working on [project1](https://www.youtube.com/watch?v=JB7YD7OKm5g)
+This project predicts house prices using a Linear Regression model. The model is trained on a Kaggle dataset and deployed as a web application using Streamlit.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+📌 Project Overview
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+The goal of this project is to build a machine learning model that predicts house prices based on input features.
+The trained model is saved using pickle and integrated into a Streamlit UI for easy user interaction.
+
+🚀 Features
+
+Data processing using Pandas
+
+Machine learning using Scikit-learn
+
+Model training with Linear Regression
+
+Data splitting using train_test_split
+
+Model serialization using Pickle
+
+Interactive web UI with Streamlit
+
+Hosted and version-controlled on GitHub
+
+Deployed as a Streamlit Web App
+
+🛠️ Technologies Used
+
+Python
+
+Pandas
+
+Scikit-learn
+
+Streamlit
+
+Pickle
+
+Git & GitHub
+
+📂 Dataset
+
+Dataset source: Kaggle
+
+Contains various features related to houses and their prices.
+
+Used for training and testing the model.
+
+⚙️ Project Workflow
+
+Download dataset from Kaggle
+
+Load and clean data using Pandas
+
+Perform exploratory data analysis
+
+Split data using train_test_split
+
+Train model using Linear Regression
+
+Save trained model using pickle
+
+Build UI using Streamlit
+
+Push code to GitHub
+
+Deploy application on Streamlit Cloud
+
+🌐 Live Demo
+
+🔗 Deployed App Link:
+https://housepriceprediction8.streamlit.app/
