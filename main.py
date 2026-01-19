@@ -12,7 +12,7 @@ st.title("🏠 Home Price Prediction App")
 st.write("Enter house details to predict price")
 
 # Inputs
-area = st.number_input("Area (sq ft)", min_value=200, max_value=10000, step=50)
+area = st.number_input("Area (sq ft)", min_value=500, max_value=10000, step=50)
 bhk = st.number_input("BHK", min_value=1, max_value=10)
 bathrooms = st.number_input("Bathrooms", min_value=1, max_value=10)
 parking = st.number_input("Parking", min_value=1, max_value=3)
